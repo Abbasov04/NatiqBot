@@ -20,7 +20,7 @@ async def play_logs(message, streamtype):
 
 <b>Əməliyyat:</b> {message.text.split(None, 1)[1]}
 <b>Platform:</b> {streamtype}
-[Sahib](https://t.me/NatiqOwner)"""
+"""
         if message.chat.id != LOGGER_ID:
             try:
                 await app.send_message(
