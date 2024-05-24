@@ -31,11 +31,11 @@ OWNER_ID = int(getenv("OWNER_ID", "6960862388"))
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-0f85a6ad-9990-4737-99b7-5b7feda8cba6")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-50e13d81-64ee-466a-900f-e65b46faf744")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Abbasov04/YASEMEN",
+    "https://github.com/Abbasov04/NatiqBot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
